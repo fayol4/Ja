@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #ffe6e6;
+}
+
+canvas {
+    background: white;
+    display: block;
+    margin: auto;
+    border: 2px solid pink;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #ff6699;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3366;
+}
