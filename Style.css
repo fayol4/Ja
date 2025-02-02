@@ -1,0 +1,17 @@
+<audio id="bgMusic" loop>
+    <source src="https://youtu.be/aAM6pNnngi4?si=TlN_miMs_mWqqQpe" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<button onclick="toggleMusic()">🎵 เล่น/หยุดเพลง</button>
+
+<script>
+    let music = document.getElementById("bgMusic");
+    function toggleMusic() {
+        if (music.paused) {
+            music.play();
+        } else {
+            music.pause();
+        }
+    }
+</script>
